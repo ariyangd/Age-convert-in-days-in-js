@@ -14,7 +14,7 @@ Age convert in days
     border: 1px solid black;
     padding: 10px;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -44,7 +44,7 @@ Cat Generator
     border: 1px solid blue;
     padding: 10px;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -83,3 +83,20 @@ Rock Paper Scissors
 /* 
 Button Color Change
 */
+
+.container-4 {
+    border: 1px solid red;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.flex-box-pick-color {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
