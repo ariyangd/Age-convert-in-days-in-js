@@ -152,26 +152,28 @@ function buttonRed() {
     }
 }
 
-function buttonGreen (){
+function buttonGreen() {
     for (let i = 0; i < all_buttons.length; i++) {
         all_buttons[i].classList.remove(all_buttons[i].classList[1]);
         all_buttons[i].classList.add('btn-success');
     }
 }
 
-function buttonColorReset (){
+function buttonColorReset() {
     for (let i = 0; i < all_buttons.length; i++) {
         all_buttons[i].classList.remove(all_buttons[i].classList[1]);
         all_buttons[i].classList.add(copyAllButtons[i]);
     }
 }
 
-function randomColors () {
+function randomColors() {
     var choices = ['btn-primary', 'btn-danger', 'btn-success', 'btn-warning'];
 
-for (let i = 0; i < all_buttons.length; i++) {
+    for (let i = 0; i < all_buttons.length; i++) {
         var randomNumber = Math.floor(Math.random() * 4);
         all_buttons[i].classList.remove(all_buttons[i].classList[1]);
         all_buttons[i].classList.add(choices[randomNumber]);
+    }
 }
-}
+
+//Black Jack
